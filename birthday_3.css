@@ -343,6 +343,11 @@ div#leave_word {
     animation: third_span9 236s linear infinite;
     -webkit-animation: third_span9 236s linear infinite;
 }
+#fourth {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 
 @keyframes p1 {
     0%{
