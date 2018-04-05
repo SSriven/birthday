@@ -152,17 +152,17 @@
     text-align: left;
     padding: 0 0 0 5px;
 }
-#sixth {
+#wqc_sixth {
     width: 100%;
     height:100%;
     position: absolute;
 }
-#sixth .flag {
+#wqc_sixth .flag {
     animation: sixth_wqc_flag 236s ease infinite;
     -webkit-animation: sixth_wqc_flag 236s ease infinite;
     border-right: 22px solid cyan;
 }
-#sixth #wqc_textbox6 {
+#wqc_sixth #wqc_textbox6 {
     animation: sixth_wqc_textbox6 236s linear infinite;
     -webkit-animation: sixth_wqc_textbox6 236s linear infinite;
     position: absolute;
