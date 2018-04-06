@@ -532,13 +532,20 @@
     font-family: "楷体";
     opacity: 1;
 }
+#nve_dog {
+    width:100%;
+    height:100%;
+    animation: eighth_wqc_dog 236s linear  ;
+    -webkit-animation: eighth_wqc_dog 236s linear  ;
+    opacity: 0;
+    position: absolute;
+}
 #eighth #wqc_textbox8 {
     overflow: hidden;
     position: absolute;
     width:100%;
     top:0;
     left:0;
-    background: pink;
     height:0;
     animation: eighth_wqc_textbox8 236s linear  ;
     -webkit-animation: eighth_wqc_textbox8 236s linear  ;
@@ -549,7 +556,6 @@
     width:100%;
     top:100%;
     left:0;
-    background: pink;
     height:0;
     animation: eighth_wqc_textbox9 236s linear  ;
     -webkit-animation: eighth_wqc_textbox9 236s linear  ;
@@ -560,6 +566,8 @@
     margin-left:10%;
     margin-top:2%;
     opacity: 0;
+    color:deeppink;
+    font-weight: bold;
     animation: eighth_wqc_span1 236s linear  ;
     -webkit-animation: eighth_wqc_span1 236s linear  ;
 }
@@ -576,6 +584,8 @@
     margin-left:10%;
     margin-top:2%;
     opacity: 0;
+    color:deeppink;
+    font-weight: bold;
     animation: eighth_wqc_span2 236s linear  ;
     -webkit-animation: eighth_wqc_span2 236s linear  ;
 }
@@ -592,6 +602,8 @@ strong {
     top:80%;
     left:15%;
     opacity: 0;
+    color:deeppink;
+    font-weight: bold;
     animation: eighth_wqc_zyx 236s linear  ;
     -webkit-animation: eighth_wqc_zyx 236s linear  ;
 }
@@ -601,6 +613,8 @@ strong {
     left:66%;
     font-size: 25px;
     opacity: 0;
+    color:deeppink;
+    font-weight: bold;
     animation: eighth_wqc_girlfriend 236s linear  ;
     -webkit-animation: eighth_wqc_girlfriend 236s linear  ;
 }
@@ -2340,6 +2354,40 @@ strong {
         opacity:0;
 }
 }
+@keyframes eighth_wqc_dog {
+    0%{
+        opacity: 0;
+    }
+    88%{
+        opacity:0;
+    }
+    89%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 0;
+    }
+}
+@-webkit-keyframes  eighth_wqc_dog {
+    0%{
+        opacity: 0;
+    }
+    88%{
+        opacity:0;
+    }
+    89%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 0;
+    }
+}
 @keyframes eighth_wqc_textbox8 {
     0%{
         height:0;
@@ -2352,14 +2400,14 @@ strong {
     }
     98%{
         height:50%;
-        background: pink;
+        /*background: pink;*/
     }
     99%{
-        background: indigo;
+        /*background: indigo;*/
         height:50%;
     }
     100%{
-        background: indigo;
+        /*background: indigo;*/
         height:0;
     }
 }
@@ -2375,14 +2423,14 @@ strong {
     }
     98%{
         height:50%;
-        background: pink;
+        /*background: pink;*/
     }
     99%{
-        background: indigo;
+        /*background: indigo;*/
         height:50%;
     }
     100%{
-        background: indigo;
+        /*background: indigo;*/
         height:0;
     }
 }
@@ -2402,15 +2450,15 @@ strong {
     98%{
         height:50%;
         top:50%;
-        background:pink;
+       /* background:pink;*/
     }
     99%{
-        background:indigo;
+        /*background:indigo;*/
         top:50%;
         height:100%;
     }
     100%{
-        background:indigo;
+       /* background:indigo;*/
         top:100%;
         height:0;
     }
@@ -2431,15 +2479,15 @@ strong {
     98%{
         height:50%;
         top:50%;
-        background:pink;
+        /* background:pink;*/
     }
     99%{
-        background:indigo;
+        /*background:indigo;*/
         top:50%;
         height:100%;
     }
     100%{
-        background:indigo;
+        /* background:indigo;*/
         top:100%;
         height:0;
     }
