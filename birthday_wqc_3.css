@@ -1,3 +1,197 @@
+#head p:nth-child(1) {
+    animation: p1 236s linear;
+    -webkit-animation:p1 236s linear   ;
+    margin-top: 40px;
+}
+#head p:nth-child(2) {
+    animation: p2 236s linear  ;
+    -webkit-animation:p2 236s linear   ;
+}
+#head p:nth-child(3) {
+    animation: p3 236s linear  ;
+    -webkit-animation:p3 236s linear   ;
+}
+#head p:nth-child(4) {
+    animation: p4 236s linear  ;
+    -webkit-animation:p4 236s linear   ;
+}
+#head p:nth-child(5) {
+    animation: p5 236s linear  ;
+    -webkit-animation:p5 236s linear   ;
+}
+#head p:nth-child(6) {
+    animation: p6 236s linear  ;
+    -webkit-animation:p6 236s linear   ;
+}
+#head p:nth-child(7) {
+    animation: p7 236s linear  ;
+    -webkit-animation:p7 236s linear   ;
+}
+#head p:nth-child(8) {
+    animation: p8 236s linear  ;
+    -webkit-animation:p8 236s linear   ;
+}
+#head p:nth-child(9) {
+    animation: p9 236s linear  ;
+    -webkit-animation:p9 236s linear   ;
+}
+#first .ball {
+    animation: firstball 236s linear  ;
+    -webkit-animation:firstball 236s linear   ;
+}
+#first .nav {
+    animation: firstnav 236s linear  ;
+    -webkit-animation: firstnav 236s linear  ;
+}
+#textbox1 {
+
+    width: 0;
+    height: 0;
+    background: rgba(255,255,255,0.6);
+    border-radius: 8px;
+    position: absolute;
+    left: 30%;
+    top: -20px;
+    overflow: hidden;
+    font-family: Microsoft YaHei;
+    animation: first_textbox1 236s linear  ;
+    -webkit-animation: first_textbox1 236s linear   ;
+}
+#first .flag {
+    animation: first_flag 236s linear  ;
+    -webkit-animation: first_flag 236s linear  ;
+}
+#textbox1 span:nth-child(1) {
+
+    font-size: 30px;
+    font-family: Microsoft YaHei;
+    animation: first_span1 236s linear  ;
+    -webkit-animation: first_span1 236s linear  ;
+}
+#textbox1 span:nth-child(2) {
+
+    font-size: 25px;
+    animation: first_span2 236s linear  ;
+    -webkit-animation: first_span2 236s linear  ;
+
+}
+#textbox1 span:nth-child(3) {
+
+    font-size: 25px;
+    animation: first_span3 236s linear  ;
+    -webkit-animation: first_span3 236s linear  ;
+
+}
+#textbox1 span:nth-child(4) {
+    font-size: 25px;
+    animation: first_span4 236s linear  ;
+    -webkit-animation: first_span4 236s linear  ;
+
+}
+#textbox1 span:nth-child(5) {
+    font-size: 25px;
+    animation: first_span5 236s linear  ;
+    -webkit-animation: first_span5 236s linear  ;
+
+}
+#second .ball {
+    animation: secondball 236s linear  ;
+    -webkit-animation:secondball 236s linear   ;
+}
+#second .nav {
+    animation: secondnav 236s linear  ;
+    -webkit-animation:secondnav 236s linear   ;
+}
+#textbox2 {
+    width: 0;
+    height: 0;
+    background: rgba(255,255,255,0.6);
+    border-radius: 8px;
+    position: absolute;
+    left: 30%;
+    top: -20px;
+    overflow: hidden;
+    font-family: Microsoft YaHei;
+    animation: second_textbox2 236s linear  ;
+    -webkit-animation: second_textbox2 236s linear   ;
+}
+#second .flag {
+    animation: second_flag 236s linear  ;
+    -webkit-animation: second_flag 236s linear  ;
+}
+#textbox2 span:nth-child(1) {
+    font-size: 24px;
+    animation: second_span1 236s linear  ;
+    -webkit-animation: second_span1 236s linear  ;
+}
+#textbox2 span:nth-child(2) {
+    animation: second_span2 236s linear  ;
+    -webkit-animation: second_span2 236s linear  ;
+}#textbox2 span:nth-child(3) {
+     animation: second_span3 236s linear  ;
+     -webkit-animation: second_span3 236s linear  ;
+ }
+#textbox2 span:nth-child(4) {
+    animation: second_span 236s linear  ;
+    -webkit-animation: second_span4 236s linear  ;
+}
+#textbox2 span:nth-child(5) {
+    animation: second_span5 236s linear  ;
+    -webkit-animation: second_span5 236s linear  ;
+}
+#textbox2 span:nth-child(6) {
+    animation: second_span6 236s linear  ;
+    -webkit-animation:second_span6  236s linear  ;
+}
+#textbox2 span:nth-child(7) {
+    animation: second_span7 236s linear  ;
+    -webkit-animation: second_span7 236s linear  ;
+}
+#textbox2 span:nth-child(8) {
+    animation: second_span8 236s linear  ;
+    -webkit-animation: second_span8 236s linear  ;
+}
+#textbox2 span:nth-child(9) {
+    animation: second_span9 236s linear  ;
+    -webkit-animation: second_span9 236s linear  ;
+}
+#textbox2 span:nth-child(10) {
+    animation: second_span10 236s linear  ;
+    -webkit-animation: second_span10 236s linear  ;
+}
+#textbox2 span:nth-child(11) {
+    animation: second_span11 236s linear  ;
+    -webkit-animation: second_span11 236s linear  ;
+}
+#textbox2 span:nth-child(12) {
+    animation: second_span12 236s linear  ;
+    -webkit-animation: second_span12 236s linear  ;
+}
+#textbox2 span:nth-child(13) {
+    animation: second_span13 236s linear  ;
+    -webkit-animation: second_span13 236s linear  ;
+}
+#textbox2 span:nth-child(14) {
+    animation: second_span14 236s linear  ;
+    -webkit-animation: second_span14 236s linear  ;
+}
+#textbox2 span:nth-child(15) {
+    animation: second_span15 236s linear  ;
+    -webkit-animation: second_span15 236s linear  ;
+}
+#textbox2 span:nth-child(16) {
+    animation: second_span16 236s linear  ;
+    -webkit-animation: second_span16 236s linear  ;
+}
+#textbox2 span:nth-child(17) {
+    animation: second_span17 236s linear  ;
+    -webkit-animation: second_span17 236s linear  ;
+}
+#textbox2 span:nth-child(18) {
+    animation: second_span18 236s linear  ;
+    -webkit-animation: second_span18 236s linear  ;
+}
+
 #third {
     width: 100%;
     height:100%;
@@ -28,8 +222,8 @@
     border-width: 1px;
 
     border-color: #ee9ca7;
-    animation: third_wqc_textbox3 236s ease infinite;
-    -webkit-animation: third_wqc_textbox3 236s ease infinite;
+    animation: third_wqc_textbox3 236s ease  ;
+    -webkit-animation: third_wqc_textbox3 236s ease  ;
     overflow: hidden;
     z-index: 0;
 
@@ -53,8 +247,8 @@
     background: hotpink;
 
     border-radius: 10px;
-    animation: fourth_wqc_textbox4 236s ease infinite;
-    -webkit-animation: fourth_wqc_textbox4 236s ease infinite;
+    animation: fourth_wqc_textbox4 236s ease  ;
+    -webkit-animation: fourth_wqc_textbox4 236s ease  ;
 
 }
 #wqc_textbox4 span {
@@ -67,44 +261,44 @@
 #wqc_textbox4 span:nth-child(1) {
     padding: 0 0 5px 0;
     font-size: 30px;
-    animation: fourth_wqc_span1 236s ease infinite;
-    -webkit-animation: fourth_wqc_span1 236s ease infinite;
+    animation: fourth_wqc_span1 236s ease  ;
+    -webkit-animation: fourth_wqc_span1 236s ease  ;
 }
 #wqc_textbox4 span:nth-child(2) {
-    animation: fourth_wqc_span2 236s ease infinite;
-    -webkit-animation: fourth_wqc_span2 236s ease infinite;
+    animation: fourth_wqc_span2 236s ease  ;
+    -webkit-animation: fourth_wqc_span2 236s ease  ;
 }
 #wqc_textbox4 span:nth-child(3) {
-    animation: fourth_wqc_span3 236s ease infinite;
-    -webkit-animation: fourth_wqc_span3 236s ease infinite;
+    animation: fourth_wqc_span3 236s ease  ;
+    -webkit-animation: fourth_wqc_span3 236s ease  ;
 }
 #wqc_textbox4 span:nth-child(4) {
-    animation: fourth_wqc_span4 236s ease infinite;
-    -webkit-animation: fourth_wqc_span4 236s ease infinite;
+    animation: fourth_wqc_span4 236s ease  ;
+    -webkit-animation: fourth_wqc_span4 236s ease  ;
 }
 #wqc_textbox4 span:nth-child(5) {
-    animation: fourth_wqc_span5 236s ease infinite;
-    -webkit-animation: fourth_wqc_span5 236s ease infinite;
+    animation: fourth_wqc_span5 236s ease  ;
+    -webkit-animation: fourth_wqc_span5 236s ease  ;
 }
 #wqc_textbox4 span:nth-child(6) {
-    animation: fourth_wqc_span6 236s ease infinite;
-    -webkit-animation: fourth_wqc_span6 236s ease infinite;
+    animation: fourth_wqc_span6 236s ease  ;
+    -webkit-animation: fourth_wqc_span6 236s ease  ;
 }
 #wqc_textbox4 span:nth-child(7) {
-    animation: fourth_wqc_span7 236s ease infinite;
-    -webkit-animation: fourth_wqc_span7 236s ease infinite;
+    animation: fourth_wqc_span7 236s ease  ;
+    -webkit-animation: fourth_wqc_span7 236s ease  ;
 }
 #wqc_textbox4 span:nth-child(8) {
-    animation: fourth_wqc_span8 236s ease infinite;
-    -webkit-animation: fourth_wqc_span8 236s ease infinite;
+    animation: fourth_wqc_span8 236s ease  ;
+    -webkit-animation: fourth_wqc_span8 236s ease  ;
 }
 #wqc_textbox4 span:nth-child(9) {
-    animation: fourth_wqc_span9 236s ease infinite;
-    -webkit-animation: fourth_wqc_span9 236s ease infinite;
+    animation: fourth_wqc_span9 236s ease  ;
+    -webkit-animation: fourth_wqc_span9 236s ease  ;
 }
 #wqc_textbox4 span:nth-child(10) {
-    animation: fourth_wqc_span10 236s ease infinite;
-    -webkit-animation: fourth_wqc_span10 236s ease infinite;
+    animation: fourth_wqc_span10 236s ease  ;
+    -webkit-animation: fourth_wqc_span10 236s ease  ;
 }
 #fifth {
     width: 100%;
@@ -112,22 +306,22 @@
     position: absolute;
 }
 #fifth .ball {
-    animation: fifth_wqc_ball 236s ease infinite;
-    -webkit-animation: fifth_wqc_ball 236s ease infinite;
+    animation: fifth_wqc_ball 236s ease  ;
+    -webkit-animation: fifth_wqc_ball 236s ease  ;
 }
 #fifth .nav {
-    animation: fifth_wqc_nav 236s ease infinite;
-    -webkit-animation: fifth_wqc_nav 236s ease infinite;
+    animation: fifth_wqc_nav 236s ease  ;
+    -webkit-animation: fifth_wqc_nav 236s ease  ;
 }
 #fifth .flag {
-    animation: fifth_wqc_flag 236s ease infinite;
-    -webkit-animation: fifth_wqc_flag 236s ease infinite;
+    animation: fifth_wqc_flag 236s ease  ;
+    -webkit-animation: fifth_wqc_flag 236s ease  ;
     border-right: 22px solid cyan;
 }
 #fifth #wqc_textbox5 {
 
-    animation: fifth_wqc_textbox5 236s ease infinite;
-    -webkit-animation: fifth_wqc_textbox5 236s ease infinite;
+    animation: fifth_wqc_textbox5 236s ease  ;
+    -webkit-animation: fifth_wqc_textbox5 236s ease  ;
     position: absolute;
     top: -10%;
     left: 30%;
@@ -144,8 +338,8 @@
     padding: 10px 0 0 5px;
     text-align: center;
     opacity: 0;
-    animation: fifth_wqc_span 236s linear infinite;
-    -webkit-animation: fifth_wqc_span 236s linear infinite;
+    animation: fifth_wqc_span 236s linear  ;
+    -webkit-animation: fifth_wqc_span 236s linear  ;
 }
 #wqc_textbox5 span:nth-child(1) {
     font-size: 25px;
@@ -158,13 +352,13 @@
     position: absolute;
 }
 #wqc_sixth .flag {
-    animation: sixth_wqc_flag 236s ease infinite;
-    -webkit-animation: sixth_wqc_flag 236s ease infinite;
+    animation: sixth_wqc_flag 236s ease  ;
+    -webkit-animation: sixth_wqc_flag 236s ease  ;
     border-right: 22px solid cyan;
 }
 #wqc_sixth #wqc_textbox6 {
-    animation: sixth_wqc_textbox6 236s linear infinite;
-    -webkit-animation: sixth_wqc_textbox6 236s linear infinite;
+    animation: sixth_wqc_textbox6 236s linear  ;
+    -webkit-animation: sixth_wqc_textbox6 236s linear  ;
     position: absolute;
     top: -10%;
     left: 30%;
@@ -193,8 +387,8 @@
     font-family: "楷体";
     background: lightblue;
     opacity: 0;
-    animation: seventh 236s linear infinite;
-    -webkit-animation: seventh 236s linear infinite;
+    animation: seventh 236s linear  ;
+    -webkit-animation: seventh 236s linear  ;
 }
 #seventh #wqc_textbox7 {
     position: absolute;
@@ -210,84 +404,84 @@
 #wqc_textbox7 span:nth-child(1) {
     font-size: 18px;
     font-weight: bold;
-    animation: seventh_span1 236s linear infinite;
-    -webkit-animation: seventh_span1 236s linear infinite;
+    animation: seventh_span1 236s linear  ;
+    -webkit-animation: seventh_span1 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(2) {
-    animation: seventh_span2 236s linear infinite;
-    -webkit-animation: seventh_span2 236s linear infinite;
+    animation: seventh_span2 236s linear  ;
+    -webkit-animation: seventh_span2 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(3) {
-    animation: seventh_span3 236s linear infinite;
-    -webkit-animation: seventh_span3 236s linear infinite;
+    animation: seventh_span3 236s linear  ;
+    -webkit-animation: seventh_span3 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(4) {
-    animation: seventh_span4 236s linear infinite;
-    -webkit-animation: seventh_span4 236s linear infinite;
+    animation: seventh_span4 236s linear  ;
+    -webkit-animation: seventh_span4 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(5) {
-    animation: seventh_span5 236s linear infinite;
-    -webkit-animation: seventh_span5 236s linear infinite;
+    animation: seventh_span5 236s linear  ;
+    -webkit-animation: seventh_span5 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(6) {
-    animation: seventh_span6 236s linear infinite;
-    -webkit-animation: seventh_span6 236s linear infinite;
+    animation: seventh_span6 236s linear  ;
+    -webkit-animation: seventh_span6 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(7) {
-    animation: seventh_span7 236s linear infinite;
-    -webkit-animation: seventh_span7 236s linear infinite;
+    animation: seventh_span7 236s linear  ;
+    -webkit-animation: seventh_span7 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(8) {
-    animation: seventh_span8 236s linear infinite;
-    -webkit-animation: seventh_span8 236s linear infinite;
+    animation: seventh_span8 236s linear  ;
+    -webkit-animation: seventh_span8 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(9) {
-    animation: seventh_span9 236s linear infinite;
-    -webkit-animation: seventh_span9 236s linear infinite;
+    animation: seventh_span9 236s linear  ;
+    -webkit-animation: seventh_span9 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(10) {
-    animation: seventh_span10 236s linear infinite;
-    -webkit-animation: seventh_span10 236s linear infinite;
+    animation: seventh_span10 236s linear  ;
+    -webkit-animation: seventh_span10 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(11) {
-    animation: seventh_span11 236s linear infinite;
-    -webkit-animation: seventh_span11 236s linear infinite;
+    animation: seventh_span11 236s linear  ;
+    -webkit-animation: seventh_span11 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(12) {
-    animation: seventh_span12 236s linear infinite;
-    -webkit-animation: seventh_span12 236s linear infinite;
+    animation: seventh_span12 236s linear  ;
+    -webkit-animation: seventh_span12 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(13) {
-    animation: seventh_span13 236s linear infinite;
-    -webkit-animation: seventh_span13 236s linear infinite;
+    animation: seventh_span13 236s linear  ;
+    -webkit-animation: seventh_span13 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(14) {
-    animation: seventh_span14 236s linear infinite;
-    -webkit-animation: seventh_span14 236s linear infinite;
+    animation: seventh_span14 236s linear  ;
+    -webkit-animation: seventh_span14 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(15) {
-    animation: seventh_span15 236s linear infinite;
-    -webkit-animation: seventh_span15 236s linear infinite;
+    animation: seventh_span15 236s linear  ;
+    -webkit-animation: seventh_span15 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(16) {
-    animation: seventh_span16 236s linear infinite;
-    -webkit-animation: seventh_span16 236s linear infinite;
+    animation: seventh_span16 236s linear  ;
+    -webkit-animation: seventh_span16 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(17) {
-    animation: seventh_span17 236s linear infinite;
-    -webkit-animation: seventh_span17 236s linear infinite;
+    animation: seventh_span17 236s linear  ;
+    -webkit-animation: seventh_span17 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(18) {
-    animation: seventh_span18 236s linear infinite;
-    -webkit-animation: seventh_span18 236s linear infinite;
+    animation: seventh_span18 236s linear  ;
+    -webkit-animation: seventh_span18 236s linear  ;
 }
 #wqc_textbox7 span:nth-child(19) {
-     animation: seventh_span19 236s linear infinite;
-     -webkit-animation: seventh_span19 236s linear infinite;
+     animation: seventh_span19 236s linear  ;
+     -webkit-animation: seventh_span19 236s linear  ;
  }
 #wqc_textbox7 span:nth-child(20) {
-      animation: seventh_span20 236s linear infinite;
-      -webkit-animation: seventh_span20 236s linear infinite;
+      animation: seventh_span20 236s linear  ;
+      -webkit-animation: seventh_span20 236s linear  ;
   }
 
 
@@ -299,8 +493,8 @@
     top: 82.8%;
 
     left: 38%;
-    animation: seventh_dotted 236s linear infinite;
-    -webkit-animation: seventh_dotted 236s linear infinite;
+    animation: seventh_dotted 236s linear  ;
+    -webkit-animation: seventh_dotted 236s linear  ;
 }
 #xian {
     position: absolute;
@@ -308,8 +502,8 @@
     top: 82.8%;
 
     left: 50%;
-    animation: seventh_xian 236s linear infinite;
-    -webkit-animation: seventh_xiannv 236s linear infinite;
+    animation: seventh_xian 236s linear  ;
+    -webkit-animation: seventh_xiannv 236s linear  ;
 }
 #nv {
     position: absolute;
@@ -317,8 +511,8 @@
     top: 82.8%;
 
     left: 56%;
-    animation: seventh_xian 236s linear infinite;
-    -webkit-animation: seventh_xiannv 236s linear infinite;
+    animation: seventh_xian 236s linear  ;
+    -webkit-animation: seventh_xiannv 236s linear  ;
 }
 #yue {
     position: absolute;
@@ -328,8 +522,87 @@
     left: 62%;
 
     font-size: 30px;
-    animation: seventh_yue 236s linear infinite;
-    -webkit-animation: seventh_yue 236s linear infinite;
+    animation: seventh_yue 236s linear  ;
+    -webkit-animation: seventh_yue 236s linear  ;
+}
+#eighth {
+    width:100%;
+    height:100%;
+    position: absolute;
+    font-family: "楷体";
+    opacity: 1;
+}
+#eighth #wqc_textbox8 {
+    overflow: hidden;
+    position: absolute;
+    width:100%;
+    top:0;
+    left:0;
+    background: pink;
+    height:0;
+    animation: eighth_wqc_textbox8 236s linear  ;
+    -webkit-animation: eighth_wqc_textbox8 236s linear  ;
+}
+#eighth #wqc_textbox9 {
+    overflow: hidden;
+    position: absolute;
+    width:100%;
+    top:100%;
+    left:0;
+    background: pink;
+    height:0;
+    animation: eighth_wqc_textbox9 236s linear  ;
+    -webkit-animation: eighth_wqc_textbox9 236s linear  ;
+}
+#wqc_textbox8 span {
+    display:block;
+    font-size: 18px;
+    margin-left:10%;
+    margin-top:2%;
+    opacity: 0;
+    animation: eighth_wqc_span1 236s linear  ;
+    -webkit-animation: eighth_wqc_span1 236s linear  ;
+}
+#wqc_textbox8 span:nth-child(1) {
+
+    margin-top: 0;
+    margin-bottom: 3%;
+    font-size: 25px;
+
+}
+#wqc_textbox9 span {
+    display:block;
+    font-size: 18px;
+    margin-left:10%;
+    margin-top:2%;
+    opacity: 0;
+    animation: eighth_wqc_span2 236s linear  ;
+    -webkit-animation: eighth_wqc_span2 236s linear  ;
+}
+#wqc_textbox9 span:nth-child(1) {
+
+    margin-top: 0;
+
+}
+strong {
+    font-size: 25px;
+}
+#zyx {
+    position: absolute;
+    top:80%;
+    left:15%;
+    opacity: 0;
+    animation: eighth_wqc_zyx 236s linear  ;
+    -webkit-animation: eighth_wqc_zyx 236s linear  ;
+}
+#girlfriend {
+    position: absolute;
+    top:80%;
+    left:66%;
+    font-size: 25px;
+    opacity: 0;
+    animation: eighth_wqc_girlfriend 236s linear  ;
+    -webkit-animation: eighth_wqc_girlfriend 236s linear  ;
 }
 @keyframes third_wqc_textbox3 {
     0%{
@@ -2066,4 +2339,268 @@
 88%{
         opacity:0;
 }
+}
+@keyframes eighth_wqc_textbox8 {
+    0%{
+        height:0;
+    }
+    88%{
+        height:0;
+    }
+    89%{
+        height:50%;
+    }
+    98%{
+        height:50%;
+        background: pink;
+    }
+    99%{
+        background: indigo;
+        height:50%;
+    }
+    100%{
+        background: indigo;
+        height:0;
+    }
+}
+@-webkit-keyframes  eighth_wqc_textbox8 {
+    0%{
+        height:0;
+    }
+    88%{
+        height:0;
+    }
+    89%{
+        height:50%;
+    }
+    98%{
+        height:50%;
+        background: pink;
+    }
+    99%{
+        background: indigo;
+        height:50%;
+    }
+    100%{
+        background: indigo;
+        height:0;
+    }
+}
+@keyframes eighth_wqc_textbox9 {
+    0%{
+        height:0;
+        top:100%;
+    }
+    88%{
+        top:100%;
+        height:0;
+    }
+    89%{
+        top:50%;
+        height:50%;
+    }
+    98%{
+        height:50%;
+        top:50%;
+        background:pink;
+    }
+    99%{
+        background:indigo;
+        top:50%;
+        height:100%;
+    }
+    100%{
+        background:indigo;
+        top:100%;
+        height:0;
+    }
+}
+@-webkit-keyframes  eighth_wqc_textbox9 {
+    0%{
+        height:0;
+        top:100%;
+    }
+    88%{
+        top:100%;
+        height:0;
+    }
+    89%{
+        top:50%;
+        height:50%;
+    }
+    98%{
+        height:50%;
+        top:50%;
+        background:pink;
+    }
+    99%{
+        background:indigo;
+        top:50%;
+        height:100%;
+    }
+    100%{
+        background:indigo;
+        top:100%;
+        height:0;
+    }
+}
+@keyframes eighth_wqc_span1 {
+    0%{
+        opacity: 0;
+    }
+    89%{
+        opacity: 0;
+    }
+    91%{
+        opacity: 1;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@-webkit-keyframes  eighth_wqc_span1 {
+    0%{
+        opacity: 0;
+    }
+    89%{
+        opacity: 0;
+    }
+    91%{
+        opacity: 1;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes eighth_wqc_span2 {
+    0%{
+        opacity: 0;
+    }
+    91%{
+        opacity: 0;
+    }
+    92%{
+        opacity: 1;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@-webkit-keyframes  eighth_wqc_span2 {
+    0%{
+        opacity: 0;
+    }
+    91%{
+        opacity: 0;
+    }
+    92%{
+        opacity: 1;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes eighth_wqc_zyx {
+    0%{
+        opacity: 0;
+    }
+    93%{
+        opacity: 0;
+    }
+    94%{
+        opacity: 1;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@-webkit-keyframes  eighth_wqc_zyx {
+    0%{
+        opacity: 0;
+    }
+    93%{
+        opacity: 0;
+    }
+    94%{
+        opacity: 1;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes eighth_wqc_girlfriend {
+    0%{
+        opacity: 0;
+    }
+    94%{
+        opacity: 0;
+    }
+    96%{
+        opacity: 1;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@-webkit-keyframes  eighth_wqc_girlfriend {
+    0%{
+        opacity: 0;
+    }
+    94%{
+        opacity: 0;
+    }
+    96%{
+        opacity: 1;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
 }
