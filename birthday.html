@@ -10,6 +10,7 @@
             alert("请在一个安静的地方戴上耳机效果更好哦^_^");
             function check(form) {
                 var password = document.getElementById("password").value.toString();
+
                 if (!password || password == null) {
                     var ss1=document.getElementById("sss");
                     ss1.style.opacity=1;
@@ -24,6 +25,7 @@
                 {
                     var ss2=document.getElementById("sss");
                     ss2.style.opacity=1;
+                    form.password.focus();
                     return false;
                 }
             }
