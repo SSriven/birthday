@@ -9,6 +9,23 @@
     <title>生日快乐</title>
     <script type="text/javascript">
         alert("请在一个安静的地方戴上耳机效果更好哦^_^");
+        function check(form) {
+            var password = document.getElementById("password").value.toString();
+            if (!password || password == null) {
+                alert("请输入密码");
+                form.password.focus();
+                return false;
+            }
+            else if(password==="19990412"||password==="990412")
+            {
+                return true;
+            }
+            else
+            {
+                alert("密码错误，请重新输入！");
+                return false;
+            }
+        }
     </script>
 </head>
 <body>
@@ -20,17 +37,18 @@
         <div id="happybirthday">
             <h1 style="font-weight:200;margin: 0;">生日快乐</h1>
         </div>
-        <form style="padding:20px 0 0 0;">
-            <input  type="text"  name="name" value="吴启超">
-            <input  type="password" name="password" placeholder="Input Your Birthday" required>
+        <form action="birthday_wqc_2.html" style="padding:20px 0 0 0;" name="form">
+            <input  type="text"  name="name" value="黄菲">
+            <input id="password" type="password" name="password"  placeholder="Input Your Birthday" onblur="check(form)" required>
+            <input id="login" type="submit" value="确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;认" onclick="return check(form)">
         </form>
-        <footer>
-            <a href="birthday_wqc_2.html">
-                <div id="login">
-                    进-------------->入
-                </div>
-            </a>
-        </footer>
+        <!--<footer>-->
+        <!--<a href="birthday_2.html">-->
+        <!--<div id="login">-->
+        <!--进&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;入-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</footer>-->
     </div>
     <ul class="bg-bubbles">
         <li></li>

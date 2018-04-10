@@ -61,18 +61,20 @@ form input:focus {
   width: 250px;
   color: #ee9ca7;
 }
-div#login {
+#login {
     outline: 0;
     background: white;
     border:0;
     padding: 10px 15px;
     border-radius: 3px;
-    width:210px;
+    width:241.6px;
     font-size: 18px;
     transition-duration: 0.25s;
     -webkit-transition-duration: 0.25s;
     -webkit-appearance: none;
     margin:0 auto;
+    cursor: pointer;
+    color:#ee9ca7;
 }
 footer {
     width: 240px;
@@ -82,7 +84,7 @@ a{
     color:#ee9ca7;
     text-decoration: none;
 }
-a:hover{
+#login:hover{
     font-weight:bold;
 }
 .bg-bubbles {
