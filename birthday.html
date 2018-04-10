@@ -11,7 +11,8 @@
             function check(form) {
                 var password = document.getElementById("password").value.toString();
                 if (!password || password == null) {
-                    alert("请输入密码");
+                    var ss1=document.getElementById("sss");
+                    ss1.style.opacity=1;
                     form.password.focus();
                     return false;
                 }
@@ -21,7 +22,8 @@
                 }
                 else
                 {
-                    alert("密码错误，请重新输入！");
+                    var ss2=document.getElementById("sss");
+                    ss2.style.opacity=1;
                     return false;
                 }
             }
@@ -36,9 +38,11 @@
                     <h1 style="font-weight:200;margin: 0;">生日快乐</h1>
                 </div>
                 <form action="birthday_2.html" style="padding:20px 0 0 0;" name="form">
+                    <span id="sss">密码错误，请重新输入！</span>
                     <input  type="text"  name="name" value="黄菲小仙女">
                     <input id="password" type="password" name="password"  placeholder="Input Your Birthday" onblur="check(form)" required>
                     <input id="login" type="submit" value="确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;认" onclick="return check(form)">
+
                 </form>
                  <!--<footer>-->
                     <!--<a href="birthday_2.html">-->

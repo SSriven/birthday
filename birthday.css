@@ -76,6 +76,10 @@ form input:focus {
     cursor: pointer;
     color:#ee9ca7;
 }
+#sss {
+    color:red;
+    opacity: 0;
+}
 footer {
     width: 240px;
     margin: 0 auto;
