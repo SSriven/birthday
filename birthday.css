@@ -20,7 +20,7 @@ section {
 }
 #main {
      width:100%;
-    position: absolute;
+    position: fixed;
     left:0;
     z-index: 100;
     margin: 0 auto;
@@ -46,6 +46,7 @@ form input {
     text-align: center;
     font-size: 18px;
     font-weight: 300;
+    z-index: 100;
     transition-duration: 0.25s;
     -webkit-transition-duration: 0.25s;
 }
